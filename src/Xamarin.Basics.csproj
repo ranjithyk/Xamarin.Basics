@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ranjith</Authors>
+    <Description>A library provides basic behaviors, Convertrs, Extensions, Markup extensions, Helpers and Utilities</Description>
+    <RepositoryUrl>https://github.com/ranjithyk/Xamarin.Basics.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ranjithyk/Xamarin.Basics/blob/master/README.md</PackageProjectUrl>
+    <Copyright>Copyright (c) 2020 Ranjith</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>Xamarin</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes></PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Assets\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <Content Include="Assets\README.md">
+      <Pack>true</Pack>
+      <PackagePath></PackagePath>
+    </Content>
+    <None Include="Assets\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.657" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+</Project>
